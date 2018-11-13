@@ -18,12 +18,13 @@ My pipeline consisted of 7 steps. First, I combined a white and a yellow color m
 
 In order to draw a single line on the left and right lanes, I modified the draw_lines() function by increasing the thickness to 7 pixels, separating left and right lane lines into two slope ranges, dismissing all the "noisy" lines that wouldn't fit into either range, using the numpy polyfit function to determine linear function parameters for the average left and right lines and extrapolating a line from the bottom of the image to the top of the region of interest for each side.
 
-<img src="./writeup_images/imageCs.jpg" alt="imageCs" width="200"/>
-<img src="./writeup_images/imageGray.jpg" alt="grayscale" width="200"/>
-<img src="./writeup_images/imageBlur.jpg" alt="blur" width="200"/>
-<img src="./writeup_images/imageEdges.jpg" alt="edges" width="200"/>
-<img src="./writeup_images/imageMasked.jpg" alt="masked" width="200"/>
-<img src="./writeup_images/imageOverlay.jpg" alt="overlay" width="200"/>
+<img src="./writeup_images/imageCs.jpg" alt="imageCs" width="300"/>
+<img src="./writeup_images/imageGray.jpg" alt="grayscale" width="300"/>
+<img src="./writeup_images/imageBlur.jpg" alt="blur" width="300"/>
+<img src="./writeup_images/imageEdges.jpg" alt="edges" width="300"/>
+<img src="./writeup_images/imageMasked.jpg" alt="masked" width="300"/>
+<img src="./writeup_images/imageLines.jpg" alt="lines" width="300"/>
+<img src="./writeup_images/imageOverlay.jpg" alt="overlay" width="300"/>
 
 
 ### 2. Identify potential shortcomings with your current pipeline
