@@ -11,7 +11,7 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[color_select]: ./writeup_images/imageCs.jpg "color_select"
+[color_select]: ./writeup_images/imageCs.jpg =250x "color_select"
 [grayscale]: ./writeup_images/imageGray.jpg "grayscale"
 [blur]: ./writeup_images/imageBlur.jpg "blur"
 [edges]: ./writeup_images/imageEdges.jpg "edges"
