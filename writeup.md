@@ -14,9 +14,10 @@ The goals / steps of this project are the following:
 [color_select]: ./writeup_images/imageCs.jpg "color_select"
 [grayscale]: ./writeup_images/imageGray.jpg "grayscale"
 [blur]: ./writeup_images/imageBlur.jpg "blur"
-[edges]: ./writeup_images/imageEdges "edges"
+[edges]: ./writeup_images/imageEdges.jpg "edges"
 [masked]: ./writeup_images/imageMasked.jpg "masked"
 [overlay]: ./writeup_images/imageOverlay.jpg "overlay"
+
 ---
 
 ### Reflection
