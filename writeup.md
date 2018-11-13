@@ -11,7 +11,7 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[color_select]: ./writeup_images/imageCs.jpg =250x "color_select"
+[color_select]: ./writeup_images/imageCs.jpg "color_select"
 [grayscale]: ./writeup_images/imageGray.jpg "grayscale"
 [blur]: ./writeup_images/imageBlur.jpg "blur"
 [edges]: ./writeup_images/imageEdges.jpg "edges"
@@ -27,6 +27,9 @@ The goals / steps of this project are the following:
 My pipeline consisted of 7 steps. First, I combined a white and a yellow color mask to extract white and yellow objects in the image. Then I converted to grayscale, applied gaussian smoothing, used Canny edge detection and applied a region of interest mask. Then I used the Hough function to extract lines and overlayed the result on the original image.
 
 In order to draw a single line on the left and right lanes, I modified the draw_lines() function by increasing the thickness to 7 pixels, separating left and right lane lines into two slope ranges, dismissing all the "noisy" lines that wouldn't fit into either range, using the numpy polyfit function to determine linear function parameters for the average left and right lines and extrapolating a line from the bottom of the image to the top of the region of interest for each side.
+
+
+<img src=" ./writeup_images/imageCs.jpg" alt="imageCs" width="200"/>
 
 ![color_select][color_select]
 ![grayscale][grayscale]
