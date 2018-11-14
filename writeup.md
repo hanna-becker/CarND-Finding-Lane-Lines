@@ -27,6 +27,8 @@ My pipeline consisted of 7 steps. First, I combined a white and a yellow color m
 
 In order to draw a single line on the left and right lanes, I modified the draw_lines() function by increasing the thickness to 7 pixels, separating left and right lane lines into two slope ranges, dismissing all the "noisy" lines that wouldn't fit into either range, using the numpy polyfit function to determine linear function parameters for the average left and right lines and extrapolating a line from the bottom of the image to the top of the region of interest for each side.
 
+I additionally extended the region_of_interest() function with a paramter "innerVertices" to create a more complex region of interest mask. In doing so I could improve the line predictions of the optional challenge.
+
 ![color_select][color_select]
 ![grayscale][grayscale]
 ![blur][blur]
